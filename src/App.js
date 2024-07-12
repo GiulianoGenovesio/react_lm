@@ -11,17 +11,17 @@ import Ejemplo01 from './pages/Ejemplo01';
 function App() {
   return (
     <div className="App">
-     {/*<Header></Header>*/}
-     <Header/>
-<BrowserRouter>
-     <Nav/>
-     <Routes>
-      <Route path='/' element={<HomePage/>} />
-      <Route path='/Ejemplo01' element={<Ejemplo01/>} />
-      {/* aca van los link */}
-     </Routes>
-     </BrowserRouter>
-     <Footer/>
+      {/*<Header></Header>*/}
+      <Header />
+      <BrowserRouter>
+        <Nav />
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/Ejemplo01' element={<Ejemplo01 />} />
+          {/* aca van los link */}
+        </Routes>
+      </BrowserRouter>
+      <Footer />
 
     </div>
   );
