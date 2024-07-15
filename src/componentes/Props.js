@@ -31,10 +31,23 @@ const EjemploProps4 = props =>{
     )
 }
 
+const EjemploProps5 = props => {
+const handerClick = e =>{
+    //para evitar errores - validacion
+    if(props.eventoClick){
+        props.eventoClick('me cliqueaste')
+    }
+}
+return(
+    <p><button onClick={handerClick}>Cliqueame!</button></p>
+)
+}
+
 export{
 EjemploProps1,
 EjemploProps2,
 EjemploProps3,
-EjemploProps4
+EjemploProps4,
+EjemploProps5
 // aca usamos {} y no export default porque son varios componentes distintos los que vamos a exportar
 }
