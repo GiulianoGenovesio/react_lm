@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "nombre":"Juan",
+        "apellido":"Gomez",
+        "edad": 24
+    },
+    {
+        "id": 2,
+        "nombre":"Jere",
+        "apellido":"Audisio",
+        "edad": 32
+    },
+    {
+        "id": 3,
+        "nombre":"Tomas",
+        "apellido":"Baez",
+        "edad": 12
+    },
+    {
+        "id": 4,
+        "nombre":"Thomas",
+        "apellido":"Macri",
+        "edad": 40
+    },
+    {
+        "id": 5,
+        "nombre":"Daniela",
+        "apellido":"Bravo",
+        "edad": 36
+    },
+    {
+        "id": 6,
+        "nombre":"Leonel",
+        "apellido":"Lopez",
+        "edad": 21
+    }
+    
+]

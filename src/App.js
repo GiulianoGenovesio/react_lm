@@ -8,6 +8,8 @@ import HomePage from './pages/Homepage';
 import Ejemplo01 from './pages/Ejemplo01';
 import Ejemplo2 from './pages/Ejemplo2';
 import Ejemplo3 from './pages/Ejemplo3';
+import CargaJson from './pages/Ejemplo4';
+import DatosApi from './pages/Ejemplo5';
 /*importame el componente HomePage del archivo Homepage*/
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
           <Route path='/Ejemplo01' element={<Ejemplo01 />} />
           <Route path='/Ejemplo2' element={<Ejemplo2 />} />
           <Route path='/Ejemplo3' element={<Ejemplo3 />} />
+          <Route path='/Ejemplo4' element={<CargaJson />} />
+          <Route path='/Ejemplo5' element={<DatosApi />} />
           {/* aca van los link */}
         </Routes>
       </BrowserRouter>
